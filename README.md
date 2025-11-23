@@ -14,7 +14,7 @@
 <br>
 
 **A robust Java-based web application providing real-time weather updates and forecasts.**
-Built with Jakarta EE (Servlet/JSP) and Maven, powered by the OpenWeatherMap API.
+Built with Jakarta EE (Servlet/JSP) and Maven,  powered by the OpenWeatherMap API.
 
 [Report Bug](https://github.com/Prathemsh-Coder/WheatherApp/issues) · [Request Feature](https://github.com/Prathemsh-Coder/WheatherApp/issues)
 
@@ -34,6 +34,28 @@ Built with Jakarta EE (Servlet/JSP) and Maven, powered by the OpenWeatherMap API
 
 | Component | Technology |
 |-----------|------------|
+| **Backend** | Java 1.8+, Jakarta Servlet 6.0, Jakarta JSTL 3.0 |
+| **Frontend** | HTML5, CSS3, JavaScript, JSP |
+| **Build Tool** | Apache Maven |
+| **API** | OpenWeatherMap API |
+| **Server** | Apache Tomcat 10.1+ (Recommended) |
+
+## ⚙️ Setup & Installation
+
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+
+*   Java Development Kit (JDK) 1.8+
+*   Apache Maven
+*   Apache Tomcat 10.1+
+*   [OpenWeatherMap API Key](https://openweathermap.org/api)
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Prathemsh-Coder/WheatherApp.git
     cd WheatherApp
     ```
 
