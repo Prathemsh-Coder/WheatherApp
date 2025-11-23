@@ -1,5 +1,10 @@
 # Weather App
 
+![Java](https://img.shields.io/badge/Java-1.8-orange)
+![Maven](https://img.shields.io/badge/Maven-Build-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 A Java-based web application that provides real-time weather information using the OpenWeatherMap API. Built with Jakarta EE (Servlet/JSP) and Maven.
 
 ## Features
