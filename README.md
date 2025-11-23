@@ -1,47 +1,74 @@
-# Weather App
+<div align="center">
 
-![Java](https://img.shields.io/badge/Java-1.8-orange)
-![Maven](https://img.shields.io/badge/Maven-Build-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+# 🌤️ Weather App
 
-A Java-based web application that provides real-time weather information using the OpenWeatherMap API. Built with Jakarta EE (Servlet/JSP) and Maven.
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Maven](https://img.shields.io/badge/maven-%23C71A36.svg?style=for-the-badge&logo=apachemaven&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Features
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg?style=flat-square)]()
 
-- **Current Weather**: Get real-time weather updates for any city.
-- **5-Day Forecast**: View weather predictions for the next 5 days.
-- **City Search**: Search for weather conditions in specific locations.
-- **Auto-Location**: Automatically detects user location to show local weather.
+<br>
 
-## Technology Stack
+**A robust Java-based web application providing real-time weather updates and forecasts.**
+Built with Jakarta EE (Servlet/JSP) and Maven, powered by the OpenWeatherMap API.
 
-- **Backend**: Java 1.8, Jakarta Servlet 6.0, Jakarta JSTL 3.0
-- **Frontend**: HTML5, CSS3, JavaScript, JSP
-- **Build Tool**: Maven
-- **External API**: OpenWeatherMap
+[Report Bug](https://github.com/Prathemsh-Coder/WheatherApp/issues) · [Request Feature](https://github.com/Prathemsh-Coder/WheatherApp/issues)
 
-## Prerequisites
+</div>
 
-- Java Development Kit (JDK) 1.8 or higher
-- Apache Maven
-- Apache Tomcat 10.1+ (or any Jakarta EE 10 compatible server)
-- OpenWeatherMap API Key
+---
 
-## Setup & Installation
+## 🚀 Features
+
+- **📍 Auto-Location Detection**: Automatically detects your current location to display local weather instantly.
+- **🔍 City Search**: Search for weather conditions in any city worldwide.
+- **🌡️ Real-Time Data**: Get up-to-the-minute temperature, humidity, wind speed, and weather conditions.
+- **📅 5-Day Forecast**: Plan ahead with a detailed 5-day weather prediction.
+- **📱 Responsive Design**: A clean, modern interface that works beautifully on desktop and mobile.
+
+## 🛠️ Technology Stack
+
+| Component | Technology |
+|-----------|------------|
+| **Backend** | Java 1.8, Jakarta Servlet 6.0, Jakarta JSTL 3.0 |
+| **Frontend** | HTML5, CSS3, JavaScript, JSP |
+| **Build Tool** | Apache Maven |
+| **API** | OpenWeatherMap API |
+| **Server** | Apache Tomcat 10.1+ (Recommended) |
+
+## ⚙️ Setup & Installation
+
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+
+*   Java Development Kit (JDK) 1.8+
+*   Apache Maven
+*   Apache Tomcat 10.1+
+*   [OpenWeatherMap API Key](https://openweathermap.org/api)
+
+### Installation
 
 1.  **Clone the repository**
     ```bash
-    git clone <repository-url>
-    cd weather-app
+    git clone https://github.com/Prathemsh-Coder/WheatherApp.git
+    cd WheatherApp
     ```
 
 2.  **Configure API Key**
-    - Copy the example properties file:
-      ```bash
-      cp src/main/resources/application.properties.example src/main/resources/application.properties
-      ```
-    - Open `src/main/resources/application.properties` and replace `YOUR_API_KEY_HERE` with your actual OpenWeatherMap API key.
+    *   Rename the example properties file:
+        ```bash
+        cp src/main/resources/application.properties.example src/main/resources/application.properties
+        ```
+    *   Open `src/main/resources/application.properties` and paste your API key:
+        ```properties
+        api.key=YOUR_ACTUAL_API_KEY_HERE
+        api.url=https://api.openweathermap.org/data/2.5/weather
+        ```
 
 3.  **Build the Project**
     ```bash
@@ -49,20 +76,39 @@ A Java-based web application that provides real-time weather information using t
     ```
 
 4.  **Run the Application**
-    - Deploy the generated WAR file (`target/weather-app.war`) to your Tomcat server.
-    - Or run locally if configured with a Maven plugin (e.g., Tomcat/Jetty).
+    *   Copy the generated WAR file (`target/weather-app.war`) to your Tomcat `webapps` folder.
+    *   Start Tomcat and visit: `http://localhost:8080/weather-app`
 
-## Project Structure
+## 📂 Project Structure
 
 ```
-src/
-├── main/
-│   ├── java/           # Java source code (Servlets, Services, Utils)
-│   ├── resources/      # Configuration files
-│   └── webapp/         # Web resources (JSP, CSS, JS, WEB-INF)
-└── test/               # Unit tests
+weather-app/
+├── src/
+│   ├── main/
+│   │   ├── java/com/weather/   # Backend Logic (Servlets, Config)
+│   │   ├── resources/          # Configuration (application.properties)
+│   │   └── webapp/             # Frontend (JSP, CSS, JS)
+│   └── test/                   # Unit Tests
+├── pom.xml                     # Maven Dependencies
+└── README.md                   # Project Documentation
 ```
 
-## License
+## 🤝 Contributing
 
-[MIT](LICENSE)
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+<div align="center">
+    Made with ❤️ by <a href="https://github.com/Prathemsh-Coder">Prathamesh Raut</a>
+</div>
