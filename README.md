@@ -34,28 +34,6 @@ Built with Jakarta EE (Servlet/JSP) and Maven, powered by the OpenWeatherMap API
 
 | Component | Technology |
 |-----------|------------|
-| **Backend** | Java 1.8, Jakarta Servlet 6.0, Jakarta JSTL 3.0 |
-| **Frontend** | HTML5, CSS3, JavaScript, JSP |
-| **Build Tool** | Apache Maven |
-| **API** | OpenWeatherMap API |
-| **Server** | Apache Tomcat 10.1+ (Recommended) |
-
-## ⚙️ Setup & Installation
-
-Follow these steps to get the project running on your local machine.
-
-### Prerequisites
-
-*   Java Development Kit (JDK) 1.8+
-*   Apache Maven
-*   Apache Tomcat 10.1+
-*   [OpenWeatherMap API Key](https://openweathermap.org/api)
-
-### Installation
-
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/Prathemsh-Coder/WheatherApp.git
     cd WheatherApp
     ```
 
@@ -93,15 +71,7 @@ weather-app/
 └── README.md                   # Project Documentation
 ```
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
 
 ## 📄 License
 
